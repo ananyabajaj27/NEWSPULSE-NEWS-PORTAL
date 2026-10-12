@@ -285,3 +285,29 @@ body {
     font-size: 14px;
     margin-top: 8px;
 }
+@media (max-width: 480px) {
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h2 {
+        font-size: 26px;
+    }
+
+    .hero img {
+        height: 200px;
+    }
+
+    .categories {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .navbar {
+        padding: 15px 5%;
+    }
+
+    .news-card img {
+        height: 180px;
+    }
+}
